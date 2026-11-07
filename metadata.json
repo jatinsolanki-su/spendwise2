@@ -1,0 +1,6 @@
+{
+  "name": "Spendwise 2.0",
+  "description": "Spendwise 2.0 is a professional personal finance management application for tracking expenses, managing budgets, monitoring accounts, and visualizing cash flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

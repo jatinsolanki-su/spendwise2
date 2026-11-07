@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --color-primary: #087F5B;
+    --color-primary-hover: #099268;
+    --color-primary-dark: #065F44;
+    --color-bg-app: #F5F7F5;
+    --color-text-main: #172B24;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--color-text-main);
+    background-color: var(--color-bg-app);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .dark body {
+    color: #E6F0EB;
+    background-color: #0D1714;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
